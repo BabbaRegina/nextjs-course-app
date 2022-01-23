@@ -3,8 +3,7 @@ import { roboto } from '@theme-ui/presets'
 const theme = {
   ...roboto,
   colors: {
-      ...roboto.colors,
-      background: 'grey'
+      ...roboto.colors
   },
   containers: {
     card: {
