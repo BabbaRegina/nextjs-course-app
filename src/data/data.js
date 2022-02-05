@@ -1,6 +1,8 @@
-const notes = [{
-    id: 1643224815938,
-    text: 'note sample'
-}]
+const notes = new Array(15)
+  .fill(1)
+  .map((_, i) => ({
+    id: Date.now() + i,
+    title: `Note ${i}`
+  }))
 
 module.exports = notes
