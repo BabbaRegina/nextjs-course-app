@@ -3,7 +3,7 @@ import { roboto } from '@theme-ui/presets'
 const theme = {
   ...roboto,
   colors: {
-      ...roboto.colors
+    ...roboto.colors
   },
   containers: {
     card: {
@@ -11,13 +11,13 @@ const theme = {
       border: '1px solid',
       borderColor: 'muted',
       borderRadius: '4px',
-      p: 2,
+      p: 2
     },
     page: {
       width: '100%',
       maxWidth: '960px',
       m: 0,
-      mx: 'auto',
+      mx: 'auto'
     }
   },
   styles: {

@@ -32,5 +32,8 @@
   "devDependencies": {
     "dotenv-load": "^2.0.0",
     "next-env": "^1.1.1"
+  },
+  "standard": {
+    "globals": ["fetch"]
   }
 }
