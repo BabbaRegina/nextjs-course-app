@@ -2,7 +2,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
 
-export default ({ note }) => {
+export default function note({ note }) {
   return (
     <div sx={{variant: 'containers.page'}}>
       <h1>{note.title}</h1>

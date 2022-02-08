@@ -3,7 +3,7 @@
 import { jsx } from 'theme-ui'
 import Link from 'next/link'
 
-export default ({ notes = [] }) => {
+export default function notes ({ notes = [] }) {
   return (
     <div sx={{ variant: 'containers.page' }}>
       <h1>My notes</h1>
